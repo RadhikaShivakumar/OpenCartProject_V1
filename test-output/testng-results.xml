@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="OpenCart Test Suite" duration-ms="8675" started-at="2022-04-03T21:07:50 EDT" finished-at="2022-04-03T21:07:58 EDT">
+    <groups>
+    </groups>
+    <test name="OpenCart Tests" duration-ms="8675" started-at="2022-04-03T21:07:50 EDT" finished-at="2022-04-03T21:07:58 EDT">
+      <class name="testCases.TC_SF_001_SearchExistingProductName">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_SF_001_SearchExistingProductName@6fb0d3ed]" name="setup" is-config="true" duration-ms="4411" started-at="2022-04-03T21:07:50 EDT" finished-at="2022-04-03T21:07:55 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testSearchExistingProductName()[pri:0, instance:testCases.TC_SF_001_SearchExistingProductName@6fb0d3ed]" name="testSearchExistingProductName" duration-ms="2964" started-at="2022-04-03T21:07:55 EDT" finished-at="2022-04-03T21:07:58 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchExistingProductName -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.TC_SF_001_SearchExistingProductName@6fb0d3ed]" name="tearDown" is-config="true" duration-ms="816" started-at="2022-04-03T21:07:58 EDT" finished-at="2022-04-03T21:07:58 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_SF_001_SearchExistingProductName -->
+    </test> <!-- OpenCart Tests -->
+  </suite> <!-- OpenCart Test Suite -->
+</testng-results>

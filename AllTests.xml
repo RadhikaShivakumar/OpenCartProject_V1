@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="OpenCart Test Suite">
+
+	<listeners>
+		<listener class-name="utilities.ExtentReportManager" />
+	</listeners>
+
+	<test name="OpenCart Tests">
+		<parameter name="browser" value="chrome" />
+		<classes>
+		<!-- comment -->
+	    	<!-- <class name="testCases.TC_001_AccountRegistration" />    -->	
+			<!-- <class name="testCases.TC_002_LoginTest" />   --> 
+			 <class name="testCases.TC_SF_001_SearchExistingProductName"/>  
+			<!-- <class name="testCases.TC_003_LoginDDT"/> -->
+		</classes>
+	</test>
+</suite>
